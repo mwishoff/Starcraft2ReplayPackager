@@ -44,4 +44,3 @@ What is your StarCraft handle? Serral
 Note:
 
 The program is dependent on blizzards ScProtocol, and needs to be updated when new patches come out. it can be done with "pip install s2protocol".
-You will also need Python 3.7+ and Pip installed to follow the Usage instructions.
