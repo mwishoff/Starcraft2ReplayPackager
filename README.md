@@ -1,15 +1,21 @@
 # Starcraft2ReplayPackager
 Packages replays from Starcraft2 Legacy of the void based on patch and matchup.
 
+Requirements:
+
+1.) Python 3.7+ installed, and available on the command line.
+2.) Pip installed, and available on the command line.
+3.) Git installed, and available on the command line.
+
 Usage:
 
 1.) open powershell/terminal
 
-2.) clone the repository "clone https://github.com/mwishoff/Starcraft2ReplayPackager.git"
+2.) clone the repository "git clone https://github.com/mwishoff/Starcraft2ReplayPackager.git"
 
 3.) cd into the cloned repository
 
-4.) run this command "pip install s2protocol"
+4.) run this command "pip install -r requirements.txt"
 
 5.) run this command "python SC2_Replay_packager.py"
 
@@ -38,3 +44,4 @@ What is your StarCraft handle? Serral
 Note:
 
 The program is dependent on blizzards ScProtocol, and needs to be updated when new patches come out. it can be done with "pip install s2protocol".
+You will also need Python 3.7+ and Pip installed to follow the Usage instructions.
