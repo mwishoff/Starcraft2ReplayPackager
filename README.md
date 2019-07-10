@@ -1,5 +1,5 @@
 # Starcraft2ReplayPackager
-Packages replays from Starcraft2 Legacy of the void based on patch.
+Packages replays from Starcraft2 Legacy of the void based on patch and matchup.
 
 #Usage:
 
@@ -15,7 +15,7 @@ Packages replays from Starcraft2 Legacy of the void based on patch.
 
 Here's an example of mine: C:\Users\mwish\Documents\StarCraft II\Accounts\73609262\1-S2-1-2874319\Replays\Multiplayer
 
-6.) Next you'll be prompted for your StarCraft2 handle.
+6.) Next you'll be prompted for your StarCraft2 handle (without clan tag).
 
 Here's an example of mine: WoBWoB
 
@@ -32,3 +32,7 @@ PS C:\Users\mwish\dev\Starcraft2ReplayPackager> python .\SC2_Replay_Packager.py
 Where are your StarCraft replays? C:\Users\mwish\Dev\WCS Replays\Serral
 
 What is your StarCraft handle? Serral
+
+#Notes:
+
+The program is dependent on blizzards ScProtocol, and needs to be updated when new patches come out. it can be done with "pip install s2protocol".
