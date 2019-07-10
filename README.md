@@ -4,12 +4,19 @@ Packages replays from Starcraft2 Legacy of the void based on patch.
 #Usage:
 
 1.) open powershell/terminal
+
 2.) clone the repository "clone https://github.com/mwishoff/Starcraft2ReplayPackager.git"
+
 3.) cd into the cloned repository
+
 4.) run this command "python SC2_Replay_packager.py"
+
 5.) You'll be prompted for the directory in which your starcraft2 files are.
+
 Here's an example of mine: C:\Users\mwish\Documents\StarCraft II\Accounts\73609262\1-S2-1-2874319\Replays\Multiplayer
-4.) Next you'll be prompted for your StarCraft2 handle.
+
+6.) Next you'll be prompted for your StarCraft2 handle.
+
 Here's an example of mine: WoBWoB
 
 After you're replays will be parsed through and sorted into their respective patches. In those directories You'll find
