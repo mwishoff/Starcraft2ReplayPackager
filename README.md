@@ -1,7 +1,7 @@
 # Starcraft2ReplayPackager
 Packages replays from Starcraft2 Legacy of the void based on patch and matchup.
 
-#Usage:
+Usage:
 
 1.) open powershell/terminal
 
@@ -33,6 +33,6 @@ Where are your StarCraft replays? C:\Users\mwish\Dev\WCS Replays\Serral
 
 What is your StarCraft handle? Serral
 
-#Notes:
+Note:
 
 The program is dependent on blizzards ScProtocol, and needs to be updated when new patches come out. it can be done with "pip install s2protocol".
