@@ -25,7 +25,10 @@ the match ups you played, and custom maps will be in a directory called "custom 
 You can see an example of the input/output of the program in the repository. I've added replays from tournaments Serral
 has played in. They're labeled "Serral Replays Before", the output is a directory called "Serral Replays After".
 
-Example:
+Full Example:
+
 PS C:\Users\mwish\dev\Starcraft2ReplayPackager> python .\SC2_Replay_Packager.py
+
 Where are your StarCraft replays? C:\Users\mwish\Dev\WCS Replays\Serral
+
 What is your StarCraft handle? Serral
