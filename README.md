@@ -9,13 +9,15 @@ Usage:
 
 3.) cd into the cloned repository
 
-4.) run this command "python SC2_Replay_packager.py"
+4.) run this command "pip install s2protocol"
 
-5.) You'll be prompted for the directory in which your starcraft2 files are.
+5.) run this command "python SC2_Replay_packager.py"
+
+6.) You'll be prompted for the directory in which your starcraft2 files are.
 
 Here's an example of mine: C:\Users\mwish\Documents\StarCraft II\Accounts\73609262\1-S2-1-2874319\Replays\Multiplayer
 
-6.) Next you'll be prompted for your StarCraft2 handle (without clan tag).
+7.) Next you'll be prompted for your StarCraft2 handle (without clan tag).
 
 Here's an example of mine: WoBWoB
 
