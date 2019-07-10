@@ -71,7 +71,7 @@ def extract_replay_info(loc):
             player1_race = details['m_playerList'][0]['m_race'].decode('utf-8')
             player2_name = details['m_playerList'][1]['m_name'].decode('utf-8')
             player2_race = details['m_playerList'][1]['m_race'].decode('utf-8')
-            blizzMap = details['m_isBlizzardMap']
+            blizz_map = details['m_isBlizzardMap']
 
             # Removes clan tag of the player
             if r"&gt;<sp/>" in player1_name:
@@ -80,7 +80,7 @@ def extract_replay_info(loc):
                 player2_name = player2_name.split("&gt;<sp/>")[1]
 
             return {"map": map_name,
-                    "blizz_map": blizzMap,
+                    "blizz_map": blizz_map,
                     "player1_name": str(player1_name),
                     "player1_race": str(player1_race),
                     "player2_name": str(player2_name),
